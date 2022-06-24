@@ -1,6 +1,6 @@
 package shopItems.instruments;
 
-public enum instrumentType {
+public enum InstrumentType {
 
     STRINGS,
     PERCUSSION,

@@ -2,6 +2,7 @@ package shopItems;
 
 public abstract class ShopItem implements ISell {
 
+
     private double priceBoughtAt;
     private double priceSellingFor;
 
@@ -16,10 +17,6 @@ public abstract class ShopItem implements ISell {
 
     public double getPriceSellingFor() {
         return priceSellingFor;
-    }
-
-    public void setPriceBoughtAt(double priceBoughtAt) {
-        this.priceBoughtAt = priceBoughtAt;
     }
 
     public void setPriceSellingFor(double priceSellingFor) {
